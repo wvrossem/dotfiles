@@ -1,0 +1,40 @@
+[user]
+  name = Wouter Van Rossem
+  email =
+[core]
+  excludesfile = ~/.gitignore_global
+  editor = atom
+[difftool "sourcetree"]
+  cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+  path =
+[mergetool "sourcetree"]
+  cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+  trustExitCode = true
+[commit]
+  template = ~/.gitmessage.txt
+[alias]
+  # Shortcuts
+  current = rev-parse --abbrev-ref HEAD
+  up = push -u origin HEAD
+  please = push --force-with-lease
+
+  # Recreate a local branch from master
+  recreate = "!f() { [[ -n $@ ]] && git checkout master && git branch -D \"$@\" 2> /dev/null; git checkout -b \"$@\"; }; f"
+
+  # Rebase a branch on the latest remote of a branch (defaults to master)
+  remaster = "!git fetch && git rebase origin/${1-master}"
+
+  # Fast recreate unstable
+  restable = "!git recreate unstable && git branch -u origin/unstable"
+
+  # Open JIRA ticket based on number ($1)
+  jira = "!open http://jira:8090/browse/NMSRV-$(git current | sed -r 's/[^0-9]*([0-9]+).*/\\1/g')"
+
+  # Create a new branch based on a JIRA ticket number ($1), fill in your JIRA USERNAME / PASSWORD
+  start = "!f() { git checkout -b NMSRV-$1-$(curl -s -u 'USERNAME:PASSWORD' jira:8090/rest/api/latest/issue/NMSRV-$1 | sed -r 's/.*\"summary\":\"([^\"]+)\".*/\\1/g' | tr 'A-Z' 'a-z' | sed -r 's/[^a-z]+/-/g') origin/master; }; f"
+
+  # Recreate unstable, merge branch ($1)
+  test = "!git restable && git merge --no-ff $1"
+
+  # Squash merge to master
+  finish = "!git checkout master && git merge --squash $1"
