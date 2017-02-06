@@ -65,13 +65,12 @@ Copy the git dotfiles files to the home directory
 
 Set node to a specific version
 
-* nvm install 6.9.5
-* nvm use 6.9.5
-* nvm alias default 6.9.5
+* `nvm install 6.9.5`
+* `nvm use 6.9.5`
+* `nvm alias default 6.9.5`
 
 Set npm to a specific version
 
-* npm install -g npm@2.15.11
-* rm /usr/local/bin/npm
-* ln -s /usr/bin/npm@2.15.11 /usr/local/bin/npm
-
+* `npm install -g npm@2.15.11`
+* `rm /usr/local/bin/npm` 
+* `ln -s /usr/bin/npm@2.15.11 /usr/local/bin/npm`
