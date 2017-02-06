@@ -60,3 +60,18 @@ Copy the git dotfiles files to the home directory
 
 * `.zshrc` to home directory
 * Load iterm2 profile via preferences
+
+# Node setup
+
+Set node to a specific version
+
+* nvm install 6.9.5
+* nvm use 6.9.5
+* nvm alias default 6.9.5
+
+Set npm to a specific version
+
+* npm install -g npm@2.15.11
+* rm /usr/local/bin/npm
+* ln -s /usr/bin/npm@2.15.11 /usr/local/bin/npm
+
