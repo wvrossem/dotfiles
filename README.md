@@ -8,7 +8,8 @@
   * `git`
   * `httpie`
   * `mongodb`
-  * `nvm`
+  * `mpv`
+  * `nvm`
   * `python`
   * `python3`
   * `redis`
@@ -19,7 +20,9 @@
 
 # Apps / Cask
 
-* Install via installer or brew Cask
+## Install via installer or brew Cask
+
+DEV Tools
   * Atom
     * Settings are synced via https://atom.io/packages/sync-settings
   * Iterm2 + set to load the profile in `/shell`
@@ -27,19 +30,22 @@
   * Medis
   * Sourcetree
   * Postman
-
-* Via App store
+  
+Other:
   * Chrome
   * Spotify
+  * Vlc
+  * Google Drive
+  * Dash
+
+## Via App store
+
   * Soriko Radio
   * Slack
   * Amphetamine
   * Pixelmator
-  * Vlc
   * Cyberduck
-  * Google Drive
   * Color picker
-  * Dash
   * Write
 
 # MacOS
