@@ -8,8 +8,8 @@
   * `git`
   * `httpie`
   * `mongodb`
-  * `mpv`
-  * `nvm`
+  * `mpv`
+  * `nvm`
   * `python`
   * `python3`
   * `redis`
@@ -20,33 +20,38 @@
 
 # Apps / Cask
 
-## Install via installer or brew Cask
+### Install via installer or brew Cask
 
-DEV Tools
+DEV Tools:
   * Atom
     * Settings are synced via https://atom.io/packages/sync-settings
-  * Iterm2 + set to load the profile in `/shell`
+  * Iterm3 + set to load the profile in `/shell`
   * Robomongo
   * Medis
   * Sourcetree
   * Postman
-  
-Other:
+  * Lepton
+  * Dash
+  * Cyberduck
+
+General:
   * Chrome
   * Spotify
   * Vlc
   * Google Drive
-  * Dash
+  * Skype
+  * Virtualbox
 
-## Via App store
+### Via App store
 
   * Soriko Radio
   * Slack
   * Amphetamine
   * Pixelmator
-  * Cyberduck
+
   * Color picker
   * Write
+  * WhatsApp
 
 # MacOS
 
@@ -78,5 +83,5 @@ Set node to a specific version
 Set npm to a specific version
 
 * `npm install -g npm@2.15.11`
-* `rm /usr/local/bin/npm` 
+* `rm /usr/local/bin/npm`
 * `ln -s /usr/bin/npm@2.15.11 /usr/local/bin/npm`
