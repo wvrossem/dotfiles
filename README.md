@@ -69,6 +69,8 @@ Copy the git dotfiles files to the home directory
 
 # Shell
 
+* Install oh-my-zsh
+* Install honukai zsh theme: https://github.com/oskarkrawczyk/honukai-iterm-zsh
 * `.zshrc` to home directory
 * Load iterm2 profile via preferences
 
