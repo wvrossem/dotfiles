@@ -684,16 +684,18 @@
 	<string>666 110 708 271 0 0 1440 877 </string>
 	<key>NSWindow Frame Preferences</key>
 	<string>807 411 606 456 0 0 1440 877 </string>
+	<key>NSWindow Frame SUStatusFrame</key>
+	<string>624 365 400 129 0 0 1440 877 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>370 192 700 622 0 0 1440 877 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
-	<string>269 139 606 456 0 0 1440 877 </string>
+	<string>269 139 606 469 0 0 1440 877 </string>
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>269 178 1018 447 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 27 1438 850 0 0 1440 877 </string>
+	<string>70 -112 1438 837 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>284 86 885 552 0 0 1440 877 </string>
+	<string>-1920 10 1914 1167 -1920 0 1920 1177 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1557,12 +1559,14 @@
 	<true/>
 	<key>NoSyncConfirmBeta</key>
 	<true/>
+	<key>NoSyncHaveWarnedAboutIncompatibleSoftware</key>
+	<true/>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>9943BC02-1AEB-4F30-B723-0E28B4C5271F</string>
 	<key>NoSyncLastTipTime</key>
-	<real>490268362.87520099</real>
+	<real>514368093.98300898</real>
 	<key>NoSyncPermissionToShowTip</key>
 	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
@@ -1640,6 +1644,7 @@
 		<string>0063</string>
 		<string>0064</string>
 		<string>0065</string>
+		<string>0065</string>
 	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
@@ -1709,13 +1714,13 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-03-31T14:55:10Z</date>
+	<date>2017-07-18T14:09:59Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<true/>
+	<false/>
 	<key>ShowPaneTitles</key>
 	<true/>
 	<key>SmartPlacement</key>
@@ -1755,6 +1760,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.1.beta.2</string>
+	<string>3.1.beta.5</string>
 </dict>
 </plist>
