@@ -17,6 +17,16 @@
   * `tree`
   * `zsh`
   * `zsh-completions`
+  
+```
+buku			gdbm			harfbuzz		libevent		mpfr			pixman			sqlite
+cairo			gettext			hugo			libffi			mpv			pkg-config		tmux
+ffmpeg			ghostscript		icu4c			libmpc			mujs			python			x264
+fontconfig		glib			isl			libpng			nvm			python3			xvid
+freetype		gmp			jpeg			libtiff			openssl			python@2		xz
+fribidi			gobject-introspection	lame			little-cms2		pandoc			r			youtube-dl
+gcc			graphite2		libass			lua@5.1			pcre			readline		zsh
+```
 
 # Apps / Cask
 
@@ -41,6 +51,23 @@ General:
   * Google Drive
   * Skype
   * Virtualbox
+ 
+## Cask List
+
+* freefilesync             
+* iina                     
+* keepassx                 
+* macpass                  
+* orange                   
+* riot                     
+* tagspaces                
+* vienna
+* handbrake                
+* keepassxc                
+* mactex                   
+* pdftotext               
+* rstudio                  
+* thunderbird
 
 ### Via App store
 
